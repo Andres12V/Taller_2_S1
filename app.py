@@ -26,6 +26,7 @@ def load_data():
     ## Just adding this comment for the commit
     data["date"] = pd.to_datetime(data["time"])
     data.set_index('date', inplace=True)
+    ## New small change for commit #2
     return data
 
 # Cargar datos
