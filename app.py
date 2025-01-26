@@ -23,6 +23,7 @@ app.config.suppress_callback_exceptions = True
 def load_data():
     # To do: Completar la función 
     data = pd.read_csv("datos_energia.csv")
+    ## Just adding this comment for the commit
     data["date"] = pd.to_datetime(data["time"])
     data.set_index('date', inplace=True)
     return data
