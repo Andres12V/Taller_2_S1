@@ -246,3 +246,5 @@ def update_output_div(date, hour, proy):
 # Run the server
 if __name__ == "__main__":
     app.run_server(debug=True)
+
+# This is a line added by a collaborator, please ignore it :)
